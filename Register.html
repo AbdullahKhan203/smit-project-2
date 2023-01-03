@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        /*.... link css...start */
+              /* td{
+                  padding: 10px;
+                } */
+                .link{
+                    /* padding-left: 2px; */
+                    /* margin: auto; */
+                    text-align: center;
+                    margin: 4px  ;
+                }
+                .logo{
+                    margin: 0;
+                    padding: 0;
+                    cursor: not-allowed;
+                }
+                /*.... link css...end */
+    </style>
+</head>
+<body>
+    <center>
+        <table border="2px" style="width:60%;" >
+            <tr>
+                <td>
+                    <center>
+                    <img  class="logo" src="./images/salani_logo-removebg-preview.png" alt="" height="60px" width="120px">
+                </center>
+                </td>
+               <td><a href="index.html" class="link"> <center>home</center></a></td>
+                <td><a href="about.html" class="link"><center>about</center></a></td>
+                <td><a href="gallery.html" class="link"><center>gallery</center></a></td>
+                <td><a href="media.html" class="link"><center>media</center></a></td>
+                <td><a href="Contact.html" class="link"><center>Contact</center></a></td>
+                <td><a href="Login.html" class="link"><center>Login</center></a></td>
+                <td><a href="Register.html" class="link"><center>Register</center></a></td>
+            </tr>
+        </table>
+    </center>
+    <hr>
+    <center>
+    <h1>Register page</h1>
+</center>
+<hr>
+<center>
+    <h2>Please register to continue</h2>
+    <p>All the fields are required.</p>
+</center>
+<hr>
+<form action="" style="width:25%;margin: auto;">
+    <fieldset>
+        <legend>Register</legend>
+    <label for="full Name">Full Name:</label>
+    <br>
+    <input type="text" name="" id="full Name" placeholder="Full Name">
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <br>
+    <input type="text" name="" id="email" placeholder="email">
+    <br>
+    <br>
+    <label for="password">Password:</label>
+    <br>
+    <input type="text" name="" id="password" placeholder="Password">
+    <br><br>
+    <label for="">Gender</label>: <br>
+    <!-- name attribute keep same to select only one radio batton -->
+    <label for="male">Male:</label>
+    <input type="radio" name="gender" id="male">
+    <label for="female">Female:</label>
+    <input type="radio" name="gender" id="female">
+    <br><br>
+    
+    <label for="">Hobbies</label>
+    <br>
+    
+    <label for="music">Music</label>
+    <input type="checkbox" name="" id="music">
+    <label for="art">Art</label>
+    <input type="checkbox" name="" id="art">
+    <label for="painting">Painting</label>
+    <input type="checkbox" name="" id="painting">
+<br><br>
+<label for="">Country:</label>
+<br>
+    <select name="" id="">
+        <!-- <option value="">select country</option> -->
+        <option value="Pakistan" >Pakistan</option>
+        <option value="India" disabled>india</option>
+        <option value="Bangladesh" selected>bangladesh</option>
+    </select>
+    <br><br>
+    <label for="">DOB:</label> 
+    <br>
+    <input type="date" name="" id="">
+    <br><br>
+    <label for="">Upload your photo:</label>
+    <br>
+    <input type="file" name="" id="">
+    <br><br>
+    <input type="submit" value="Register">
+    <br><br>
+    <a href="">Already a user?</a>
+</fieldset>
+</form>
+<hr>
+<center>
+<p>Copyright &copy; 2022.All right reserved.</p>
+</center>
+</body>
+</html>
